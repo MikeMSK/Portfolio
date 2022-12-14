@@ -1,0 +1,25 @@
+.mainBlock {
+    height: 100vh;
+    background: #02020e;
+}
+
+.photo {
+    border: solid 1px #80AAD7FF;
+    background: #86b8ea;
+}
+
+.photo img {
+    width: 50vh;
+}
+
+.text {
+    border: solid 1px #80AAD7FF;
+    width: 300px;
+    color: gray;
+    background: #86b8ea;
+}
+
+.text h1 {
+    color: #0606c9;
+}
+

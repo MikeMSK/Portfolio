@@ -1,18 +1,18 @@
 import React from 'react';
-import s from './Skills.module.css'
-import styleContainer from '../../src/common/styles/Container.module.css'
+import s from './Skill.module.css'
 
-const Skills = () => {
+
+const Skill = (props) => {
     return (
-        <div className={s.skillsBlock}>
-            <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>SKIILS</h2>
-                <div className={s.skills}>
+        <div className={s.skillBlock}>
 
-                </div>
-            </div>
+            <div className={s.icon}></div>
+            <h3>{props.title}</h3>
+            <span className={s.description}>
+                {props.description}
+            </span>
         </div>
     )
 };
 
-export default Skills;
+export default Skill;

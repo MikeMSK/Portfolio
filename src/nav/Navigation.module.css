@@ -1,5 +1,5 @@
 .nav {
-    border: solid 1px #f6d2f6;
+    border: dashed 1px gray;
     width: 500px;
     display: flex;
     justify-content: space-between;
@@ -8,6 +8,6 @@
 .nav a {
     font-size: 20px;
     text-decoration: none;
-    color: #86b8ea;
-
+    color: #4169E1;
+    padding: 7px;
 }

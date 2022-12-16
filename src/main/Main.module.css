@@ -4,22 +4,35 @@
 }
 
 .photo {
-    border: solid 1px #80AAD7FF;
-    background: #86b8ea;
-}
-
-.photo img {
     width: 50vh;
 }
 
+.photo img {
+    width: 100%;
+    /*max-width: 50vh;*/
+    border-radius: 7px;
+}
+
 .text {
-    border: solid 1px #80AAD7FF;
+    border: dashed 1px gray;
+    border-radius: 7px;
     width: 300px;
     color: gray;
-    background: #86b8ea;
+    padding: 7px;
+
+
+}
+
+.text span {
+    text-align: justify;
 }
 
 .text h1 {
-    color: #0606c9;
+    color: #4169E1;
+    text-align: center;
 }
 
+.text p {
+    text-align: justify;
+    text-indent: 10px;
+}

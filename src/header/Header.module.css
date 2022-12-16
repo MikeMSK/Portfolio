@@ -1,7 +1,7 @@
 .header {
     height: 80px;
     background: #02020e;
-    border: solid 1px #80aad7;
+    border: dashed 1px gray;
 
     display: flex;
     justify-content: flex-end;

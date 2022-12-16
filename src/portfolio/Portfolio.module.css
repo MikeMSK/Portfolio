@@ -1,0 +1,25 @@
+.portfolioBlock {
+    min-height: 100vh;
+    background: #02020e;
+}
+
+.portfolioContainer {
+
+}
+
+
+.title {
+    color: #4169E1;
+    border: 1px dashed gray;
+    padding: 7px;
+    text-align: center;
+}
+
+.project {
+    border: 1px dashed gray;
+    /*width: 100%;*/
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

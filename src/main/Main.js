@@ -12,6 +12,8 @@ const Main = () => {
                     <img src={myPhoto}
                          alt="general_photo"/>
                 </div>
+
+
                 <div className={s.text}>
                     <span>Hi There</span>
                     <h1>Mikhail Deichman</h1>

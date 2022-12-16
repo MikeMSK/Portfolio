@@ -1,13 +1,13 @@
 import React from 'react';
-import s from './Skill.module.css'
+import s from './Project.module.css'
 
 
-const Skill = (props) => {
+const Project = (props) => {
     return (
-        <div className={s.skillBlock}>
+        <div className={s.projectBlock}>
 
             <div className={s.icon}>
-                <img src={props.image} alt="image skill"/>
+                <img src={props.image} alt="image project"/>
             </div>
 
             <h3>{props.title}</h3>
@@ -18,6 +18,7 @@ const Skill = (props) => {
 
         </div>
     )
+
 };
 
-export default Skill;
+export default Project;

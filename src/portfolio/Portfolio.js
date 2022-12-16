@@ -54,10 +54,10 @@ const Portfolio = () => {
                 <div className={s.project}>
                     {projectItem.map((s, index) => {
                         return (
-                            <Project key={index}
-                                     title={s.name}
-                                     image={s.image}
-                                     description={s.description}/>
+                            <Project
+                                title={s.name}
+                                image={s.image}
+                                description={s.description}/>
                         )
                     })}
                 </div>

@@ -1,12 +1,14 @@
 .portfolioBlock {
     min-height: 100vh;
     background: #02020e;
+
+    display: flex;
+    align-items: center;
 }
 
 .portfolioContainer {
 
 }
-
 
 .title {
     color: #4169E1;

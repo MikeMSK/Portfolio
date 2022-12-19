@@ -7,7 +7,10 @@ const Project = (props) => {
         <div className={s.projectBlock}>
 
             <div className={s.icon}>
-                <img src={props.image} alt="image project"/>
+                <button className={s.buttonView}>
+                    VIEW
+                </button>
+                {/*<img src={props.image} alt="image project"/>*/}
             </div>
 
             <h3>{props.title}</h3>

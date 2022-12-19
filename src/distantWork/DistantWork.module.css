@@ -1,0 +1,31 @@
+.distantBlock {
+    min-height: 30vh;
+    background: #4169E1;
+
+    display: flex;
+    align-items: center;
+}
+
+.distantWorkContainer {
+    min-height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.title {
+    color: #02020e;
+    border: 1px dashed gray;
+    padding: 7px;
+    text-align: center;
+}
+
+.buttonHire {
+    width: 300px;
+    background: #02020e;
+    /*opacity: 95%;*/
+    height: 100px;
+    border: 0px none;
+}

@@ -45,7 +45,7 @@ const Portfolio = () => {
 
     return (
         <div className={s.portfolioBlock}>
-            <div className={`${styleContainer.container}${s.portfolioContainer}`}>
+            <div className={`${styleContainer.container} ${s.portfolioContainer}`}>
 
                 <h2 className={s.title}>
                     PORTFOLIO
